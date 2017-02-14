@@ -1,0 +1,82 @@
+
+html{
+
+  height: 100%;
+  width: 100%;
+}
+
+body {
+
+	height: 100%;
+  width: 100%;
+	background-image: url("./../images/background.jpg");
+	background-attachment: fixed;
+	padding-top: 200px;
+	
+}
+
+@media (max-width: 765px) {
+	
+  body {
+    padding-top: 200px;
+  }
+  
+}
+
+/*Cabecera*/
+#main-header {
+
+	background: rgb(179, 0, 0);
+	height: 200px;
+	width: 100%;
+	top: 0;
+	position: fixed;
+	z-index: 1;
+	text-align: left;
+}
+
+#titulo {
+
+	font-family:Georgia;
+	font-size: 3em;
+  color: rgb(241, 225, 225);
+}
+
+/*Contenido*/
+#fila-contenido{
+
+	height:100%;
+	width:100%;
+}
+
+#columna-contenido{
+
+	height:100%;
+}
+
+#contenido {
+
+	height:100%;
+  width:100%;
+	background-color:rgb(241, 225, 225);
+	opacity: 0.8;
+  padding: 5px;
+	border-style: hidden;
+	border-radius: 5px;
+}
+
+h2, h4{
+	padding-bottom: 10px;
+  color: white;
+  text-align: left;
+}
+
+p{
+
+	color: black;
+	padding-left: 25px;
+	padding-right: 25px;
+	text-align: justify;
+}
+
+
