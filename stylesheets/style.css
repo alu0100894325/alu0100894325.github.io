@@ -65,7 +65,13 @@ body {
 	border-radius: 5px;
 }
 
-h2, h4{
+h2{
+	padding-bottom: 10px;
+  color: white;
+  text-align: center;
+}
+
+h4{
 	padding-bottom: 10px;
   color: white;
   text-align: left;
